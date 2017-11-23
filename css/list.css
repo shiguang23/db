@@ -1,0 +1,93 @@
+
+
+
+
+.benner{ width: 100%; overflow: hidden;}
+.team{ height: 75px;width: 250px; background: #1FCAB0;  position: absolute; top:450px;left: 370px;}
+.team ul{ margin-top: 40px;}
+.team ul li{ width: 110px; height: 40px; text-align: center; border-radius: 2px; margin-bottom: 10px; background: #1FCAB0; line-height: 40px; color: #fff; font-size: 14px;}
+.team ul li.on,.team ul li:hover{ background: #f08200;}
+#left{ margin: 60px 0 50px 495px; width: 940px;}
+@media only screen and (max-width: 1600px) {
+	.team{ position: absolute; top:450px;left: 215px;}
+	#left{ margin: 60px 0 50px 255px;}
+}
+
+@media only screen and (max-width: 1440px) {
+	.team{ position: absolute; top:450px;left: 130px;}
+	#left{ margin: 60px 0 50px 225px;}
+}
+@media only screen and (max-width: 1280px) {
+	.team{ position: absolute; top:450px;left: 80px;}
+	#left{ margin: 60px 0 50px 210px;}
+}
+/*专家团队*/
+.teamTitle > div{ width: 50px; height: 3px; background: #FFFFFF; margin-top: 20px;}
+.teamTitle{padding-left: 5px;}
+.teamTitle h3{ font-size: 18px; color: #FFFFFF; margin-top: 10px;}
+.teamTitle h3 span{ font-size: 16px; color: #FFFFFF; font-weight: normal; line-height: 24px; margin-left: 15px;}
+.tramCentent .wrapper{ display: flex; flex-flow: row wrap; margin-bottom: 30px; margin-top: 60px;} 
+.tramCentent dl{ /*flex: 1 0 50%;*/ border: 10px solid #FFFFFF; box-sizing: border-box;}
+.tramCentent dl dd{ width: 200px; margin-left: 10px;}
+.tramCentent dl dd h3{ font-size: 18px; border-bottom: 1px dashed #B9B1A8; padding: 35px 5px 10px 5px;}
+.tramCentent dl dd h3 span{ font-family: 14px;}
+.tramCentent dl dd .date{ font-size: 14px; margin-top: 22px;}
+.tramCentent dl dd .good{ font-size: 14px; margin:18px 0 30px 0;}
+.tramCentent dl dd .good span{ margin-left: 5px;}
+.tramCentent dl dd .online{ border-radius:6px; width: 80px; margin:15px auto 0; text-align: center; padding: 8px 15px; background: #8FE4D7; color:#FFFFFF;}
+.tramCentent dl dd .online:hover{ background: #F08200;}
+/*真人案例*/
+.Service img{ width: 400px;}
+.Service .one .ser{height: 400px}
+.Service .one .ser .caseBor{  padding: 8px; margin-left: 45px;;  border: 1px solid #AAAAAA; border-radius: 5px; margin-bottom: 20px;}
+.Service .one .caseBor dd h3{ line-height: 40px; margin-top: 10px;}
+.Service .one .caseBor dd p{ font-size: 12px; line-height: 34px; border-bottom: 1px solid #AAAAAA;}
+.Service .one .caseBor button{ width: 20%; padding: 8px 10px; margin-top: 10px; margin-left: 20px; font-size: 14px; color: #fff;border-radius: 5px; border:none; background: #f08200; }
+.hid{ display: none;}
+.Service .one .ser .caseBor:hover{border: 2px solid #dededc; box-shadow: 4px 4px 5px #E6ECEC; border-radius: 5px;}
+
+/*医疗设备*/
+.equip .one div{ height: 450px;}
+.equip dl{ width: 260px; box-shadow: 4px 4px 5px #E6ECEC; border: 1px solid #E6ECEC;/* margin-left: 30px; margin-bottom: 30px;*/ padding: 10px;}
+.equip dl dt { width: 260px; margin: 0 auto 20px;}
+.equip dl dd p{ font-size: 12px; line-height: 20px; margin-bottom: 10px;}
+.equip dl dd p:last-of-type,.service div dl dd:last-of-type{ margin: 20px auto; background: #F08200; width: 150px; height: 30px; line-height: 30px; color: #FFFFFF; text-align: center; border-radius: 6px;}
+.equip dl dd p:nth-of-type(2){ height: 60px;}
+.equip .one div{ margin: 0 0 30px 30px;}
+.equip .one dl:hover{ border: 2px solid #F08200;}
+
+/*联系我们*/
+.message{ color: #000;}
+.message .text{ font-size: 14px; }
+.message p{ margin-bottom: 20px;}
+.message form .clearfix p:last-of-type{ margin-left: 60px;}
+.message p input{ padding: 0 10px; width: 300px; height: 35px; line-height: 35px; color: #666666; border: 1px solid #CCCCCC;}
+.message p textarea{  padding: 0 10px; width: 700px; height: 100px; line-height: 100px; color: #666666; border-radius: 10px; border: 1px solid #CCCCCC;}
+.subBtn,.resBtn{float: left; margin-left:60px; background: #F08200; width: 160px; border: none; height: 40px; line-height: 40px; color: #FFFFFF; text-align: center; border-radius: 6px; }
+.Contact .hid{ margin-left: 30px;}
+.Contact .hid p{ font-size: 14px; line-height: 30px;}
+.Contact .hid div{ margin-top: 20px; margin-bottom: 30px;}
+
+.Contact .one{ margin-bottom: 50px;}
+/*新闻中心*/
+.news .one{ width: 900px; margin-left: 20px;}
+.news .one div{ padding: 20px 0; border-bottom: 2px solid #E6ECEC; }
+.news .one div h3{ font-size: 14px; margin-bottom: 10px;}
+.news .one div p{ font-size: 14px; line-height: 24px;}
+.news .one div p:last-of-type{ font-size: 12px; margin-top: 14px;}
+
+.news .one{ margin-bottom: 50px;}
+/*公司简介*/
+.com .one p{ width: 900px; font-size: 12px; text-indent: 2rem; line-height: 24px; margin-top: 30px; margin-bottom: 30px;}
+.com .hi span{ display: block; width:10px; height: 10px; border-radius: 50%; background-color: #CCCCCC;}
+
+
+/*服务项目*/
+.service .one div{ height: 480px;} 
+.service div dl{ font-size: 12px;  text-align: center; width: 260px; border: 1px solid #E6ECEC;box-shadow: 4px 4px 5px #E6ECEC; padding: 10px;}
+.service div dl img{ width: 240px;}
+.service .one dl:hover{ border: 2px solid #F08200;}
+.service div dl .eng{margin: 15px;}
+.service div dl .tit{ font-size: 22px;}
+.service div dl .cate{ height:70px;line-height: 20px; padding: 10px 10px 0;}
+.service .one div{ float: left; margin-left: 15px; margin-bottom: 30px;}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="唐山整形医院,唐山整容医院,整形医院,整形美容,唐山好的整形医院,整容，蝶变">
+		<meta name="description" content="唐山整形医院-唐山好的整形医院，国际连锁，高端品牌；特色服务项目：整形美容、皮肤美容、微整形、口腔美容…蝶变整形，你就是明星!唐山蝶变医院，咨询热线：4000211992">
+		<title>蝶变整形--联系我们</title>
+		<link rel="stylesheet" type="text/css" href="css/bsae.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/list.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		
+		<div class="topCen">
+			<img class="fl tit" src="img/logo.png" alt="" />
+		</div>
+		<div class="title">
+			<div class="wrapper">
+				<ul class="ulList1">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="Company.html">公司简介</a></li>
+					<li><a href="service.html">服务项目</a></li>
+					<li><a href="team.html">专家团队</a></li>
+					<li><a href="equip.html">医疗设备</a></li>
+					<li><a href="case.html">成功案例</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li class="on"><a href="Contact.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="benner">
+			<img src="img/banner_2.jpg" alt="" />
+		</div>
+		<div class="team">
+			<div class="teamTitle">
+				<div></div>
+				<h3>联系我们<span>Contact us</span></h3>
+			</div>
+			<ul id="team">
+				<li class="on">在线留言</li>
+				<li>联系我们</li>
+			</ul>
+		</div>
+		<div class="Contact" id="left">
+			<div id="teamLiat">
+				<div class="one">
+					<div class="message">
+							<p class="text">欢迎您访问某某整形有限公司网站，请留下您的宝贵建议或意见。我们的服务人员会尽快与您取得联系！</p>
+							<form action="" method="post" class="msg clearfix">
+								<div class="clearfix">
+									<p class="fl">
+										<input type="text" placeholder="姓名"/>
+									</p>
+									<p class="fl">
+										<input type="text"  placeholder="电话"/>
+									</p>
+								</div>
+								<div class="clearfix">
+										<p class="fl">
+											<input type="text"  placeholder="邮箱"/>
+		 								</p>
+										<p class="fl">
+											<input type="text"  placeholder="QQ/MSN"/>
+										</p>
+								</div>
+								<p>
+									<input type="text"  placeholder="标题"/>
+								</p>
+								<p>
+									<textarea  placeholder="内容"></textarea>
+								</p>
+								
+								<p class="clearfix">
+									<span class="subBtn">提交</span>
+									<span class="resBtn">重置</span>
+								</p>
+							</form>
+						</div>
+				</div>
+				<div class="one hid">
+					<div>
+						<p>联系人：林先生</p>
+						<p>联系电话：183***********</p>
+						<p>医院地址： 唐山市路北区大学生公寓村</p>
+						<p>乘车路线：【26路】、【21路】、【60路】、【66路】到新时代妇儿医院下车；</p>
+						<div style="width:700px;height:450px;font-size:19px" id="map"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			
+		<!--页尾-->
+		
+		<div class="footer">
+				<div class="wrapper clearfix">
+					<div class="clearfix">
+						<img src="img/tel.png" alt="" />
+						<p>公司地址：唐山市路北区大学生公寓村</p>
+					</div>
+					<div class="clearfix">
+						<img src="img/ad.png" alt="" />
+						<p>公司地址：唐山市路北区大学生公寓村</p>
+					</div>
+					<div class="clearfix">
+						<img src="img/em.png" alt="" />
+						<p>公司地址：唐山市路北区大学生公寓村</p>
+					</div>
+				</div>
+				<div class="wrapper last">
+					<p>网站内容申明：本网站信息仅供参考，不能作为诊疗及医疗依据!本网站商标及图片权属艺星医疗美容集团所有，未经授权请勿复制及转载。</p>
+				</div>
+			</div>
+		<div class="back"></div>
+		
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript " src="js/jquery.SuperSlide.2.1.1.js "></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=idZGj1TfydSdyKQGKjDWngdGBf3Ylt7I"></script>
+		<script type="text/javascript" src="js/js.js" ></script>
+		<script type="text/javascript ">
+			$(function() {
+				$(".slideBox").slide({
+					mainCell: ".bd",
+					autoPlay: true
+				});
+
+			})
+			
+			
+			 //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(118.174805,39.682587),15);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"大学西道与华岩路交叉口西行50米路北",title:"蝶变整形",imageOffset: {width:0,height:3},position:{lat:39.681921,lng:118.172793}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      map.addControl(scaleControl);
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(navControl);
+      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+      map.addControl(overviewControl);
+    }
+    var map;
+      initMap();
+		</script>
+	</body>
+
+</html>
